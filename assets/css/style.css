@@ -16,6 +16,24 @@ body {
   position: relative;
   background: transparent;
 }
+.pro_heading{
+  color: greenyellow;
+}
+.pro_download{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+.pro_download:hover{
+  background-color: black;
+  color: white;
+  border: solid;
+  color: white;
+  border-width: 0.15px;
+  padding: 4.85px;
+}
 
 #bio{
  
