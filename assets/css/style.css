@@ -26,6 +26,20 @@ body {
   border-radius: 3px;
   margin-right: 15px;
 }
+.cv_div{
+  display: flex;
+}
+.cv_download{
+  padding: 13px;
+  margin-top: 10px;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  
+
+  
+ 
+}
 .pro_download:hover{
   background-color: black;
   color: white;
@@ -40,6 +54,7 @@ body {
   margin-top:8%;
   
 }
+ 
 #profile{
   width:300px;
   height: 300px;
@@ -145,7 +160,7 @@ h6 {
 }
 
 #header .social-links {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
 }
 
@@ -342,7 +357,7 @@ h6 {
     border-color: white;
     border-width:3px;
     margin-top: 0;
-     float:left;
+    
 
 
     
