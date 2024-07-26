@@ -72,24 +72,26 @@
       let pic2 = document.getElementById('pic2');
       let cv_d = document.getElementById('cv_d');
 
-      if (this.id === 'home'){
-        if (pic1) pic1.style.display = 'none';
-        if (pic2) pic2.style.display = 'contents';
-        if (cv_d) {
-          cv_d.style.display = 'contents';
-          cv_d.style.marginTop = '30px'; 
+      if (window.innerWidth <= 800) {
+        if (this.id === 'home'){
+          if (pic1) pic1.style.display = 'none';
+          if (pic2) pic2.style.display = 'contents';
+          if (cv_d) {
+            cv_d.style.display = 'contents';
+            cv_d.style.marginTop = '30px'; 
+          }
+
+
         }
-
-
-      }
-      else{
-       
-        pic1.style.display='contents';
-      
-        pic2.style.display='none';
-     
-        cv_d.style.display='none';
+        else{
         
+          pic1.style.display='contents';
+        
+          pic2.style.display='none';
+      
+          cv_d.style.display='none';
+          
+        }
       }
       
 
