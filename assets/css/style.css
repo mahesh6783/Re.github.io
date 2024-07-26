@@ -199,6 +199,8 @@ h6 {
   }
   .mr-auto1{
     display: contents;
+    width: 400px;
+    height: 400px;
   }
   
   #header h2 {
