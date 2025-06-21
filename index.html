@@ -1,779 +1,913 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="icon" href="assets/img/p.jpeg" type="image/x-icon">
-  <title>portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Mahesh H</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
   
-  ======================================================== -->
 </head>
 
-<body>
-  <video autoplay muted loop id="background-video">
-    <source src="assets/img/Plexus.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <a href="index.html" id="pic1" class="mr-auto"><img src="assets/img/p.jpeg" alt="" class="img-fluid"></a>
-    <div class="container">
-  
-      <a href="index.html" id="pic2" class="mr-auto1"><img src="assets/img/p.jpeg" alt="" class="img-fluid1"></a>
- 
- 
-      <h1><a href="index.html">Mahesh H</a></h1>
- 
-      <nav id="navbar" class="navbar">
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a class="nav-link active" id="home" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#Certificats">Certificates</a></li>
-          <li><a class="nav-link" href="#portfolio">Projects</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li> 
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
-      <div class="social-links">
-<!--         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+      <div class="social-links text-center">
+        <a href="https://github.com/mahesh6783" class="twitter"><i class="bi bi-github"></i></a>
         <a href="https://www.facebook.com/mahesh.harikrishnan" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://instagram.com/_mahesh_harikrishnan_?igshid=NTc4MTIwNjQ2YQ==" class="instagram"><i class="bi bi-instagram"></i></a>
+     
         <a href="https://www.linkedin.com/in/mahesh-h-007454227" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://github.com/mahesh6783" class="linkedin"><i class="bi bi-github"></i></a>
-      </div>
-      <div id="cv_d" class="cv_div">
-        <a href="assets/cv/MAHESH_H_CV.pdf" download="MAHESH_H_CV.pdf" target="_blank" class="cv_download">Download CV&nbsp;&nbsp;<i class="bi bi-download"></i></a>
-      </div>
-      
- 
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpeg" id="profile" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <!-- <h3>UI/UX &amp; Graphic Designer</h3> -->
-          <p class="fst-italic">
-            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore -->
-            <!-- magna aliqua. -->
-          </p>
-          <div class="row" id="bio">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 May 2001</span></li>
-                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>7994545240</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>kottayam, kerala</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>maheshharikrishnan11@gmail.com</span></li> -->
-                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                 <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li> -->
-                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> -->
-                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>maheshharikrishnan11@gmail .com</span></li>
-                
-              </ul>
-            </div>
-          </div>
-          <p>
-            <!-- Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. -->
-            <!-- Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores. -->
-          </p>
-        </div>
-      </div>
-
-    </div><!-- End About Me -->
-
-    <!-- ======= Counts ======= -->
-    <!-- End Counts -->
-
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">HTML <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">CSS <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">PHP <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">SQL <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-          
-
-          <div class="progress">
-            <span class="skill">java <i class="val">50%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Photoshop <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">c <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">c++ <i class="val">50%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">PYTHON <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-line" style="color: #ffbb2c;"></i>
-            <h3>Coding</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-sailboat-line" style="color: #5578ff;"></i>
-            <h3>Travel</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-file-music-line" style="color: #3ce803;"></i>
-            <h3>Music</h3>
-          </div>
-        </div> 
-         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-book-line" style="color: #0d2ae7;"></i>
-            <h3>Reading</h3>
-          </div>
-        </div>
-        <!-- <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Nemo Enim</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
-          </div>
-        </div>
-       </div> -->
-
-    </div><!-- End Interests -->
-
-    <!-- ======= Testimonials ======= -->
-    <!-- End testimonial item -->
-
-          <!-- End testimonial item -->
-
-           <!-- End testimonial item -->
-
-           <!-- End testimonial item -->
-
-         <!-- End Testimonials  -->
-
-  </section>
-  <!-- End About Section -->
-
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12">
-          <h3 class="resume-title">Sumary</h3>
-          <p>Motivated and diligent MSc Computer Science student with a strong foundation in algorithms, data structures, and 
-            software development. Proficient in multiple programming languages including Python, Java, and C++, with hands
-            on experience in machine learning, data analysis, and web development. Demonstrated ability to solve complex 
-            problems through practical and innovative solutions, backed by academic projects. Adept at working both 
-            independently and collaboratively in dynamic environments</p>
-           
-
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Master of Computer Science</h4>
-            <h5>2022 - 2024</h5>
-            <p><em>Bishop Vayalil Memorial Holy Cross College , Cherpunkal, Kerala
-              </em></p>
-            <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
-          </div>
-          <div class="resume-item">
-            <h4>Bachelor of Computer Science</h4>
-            <h5>2019 - 2022</h5>
-            <p><em>School Of Technology And Applied Sciences, Kottayam</em></p>
-            <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
-          </div>
-        </div>
-        <div class="col-lg-6">
-        </div>   
-
-    </div>
-  </section><!-- End Resume Section -->
-
-  <!-- ======= Certificates Section ======= -->
-
-  <section id="Certificats" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Certificates</h2>
-        <p>My Certificates</p>
-      </div>
-
-       
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c7.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-               
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c7.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-               
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-       
-       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/aws.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/aws.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"  ><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-               
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"  ><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c4.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-               
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-               
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/c1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/c1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"  ><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div> 
-        
-
-        
-
       </div>
 
     </div>
-  </section>
 
+  </header>
 
-  <!-- End Services Section -->
+  <main class="main">
 
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-      <div class="section-title">
-        <h2>Projects</h2>
-        <p>My Projects</p>
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
       </div>
 
-      <!-- <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
-      </div> -->
+      <div class="hero-content">
 
-      <div class="row portfolio-container">
+        <div class="container">
+          <div class="row align-items-center">
 
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>MAHESH<span class="accent-text">.H</span></h1>
+                <h2></h2>
+                <p class="lead">I'm a <span class="typed" data-typed-items="Web Developer,AI Developer,Python Programmer,IoT Enthusiast,Tech Innovator"></span></p>
+                <p class="description">Driven by a passion for intelligent technology, I craft smart digital experiences that merge AI innovation with seamless functionality. Let’s transform your ideas into impactful, future-ready solutions.</p>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/p5.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>project 1</h4>
-              <p>Currency Converter</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/p5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
- 
+                <div class="hero-actions">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="social-links">
+                  <a href="https://github.com/mahesh6783" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="https://www.facebook.com/mahesh.harikrishnan" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/_mahesh_harikrishnan_?igshid=NTc4MTIwNjQ2YQ==" class="instagram"><i class="bi bi-instagram"></i></a>
+     
+        <a href="https://www.linkedin.com/in/mahesh-h-007454227" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-lg-5 col-md-6 portfolio-item filter-web">
-          <h5 class="pro_heading">Currency Converter</h5>
-          <p>The Currency Converter project is a Spring Boot-based web application that enables users to convert between different currencies using real-time exchange rates fetched from a public API. The system is designed to provide accurate and up-to-date conversion values, ensuring reliability for financial transactions, e-commerce, and other applications requiring currency exchange. The project follows a microservices-based approach, utilizing RESTful APIs for seamless integration with external services. It ensures scalability, efficiency, and user-friendliness while supporting multiple currency pairs. The backend handles API requests, processes exchange rate data, and delivers precise conversion results to the user.</p>
-          <a href="https://github.com/mahesh6783/CurrencyConverter" target="_blank" class="pro_download"><i class="bi bi-github"></i>&nbsp;GitHub</a> 
-          <a href="https://github.com/mahesh6783/CurrencyConverter/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i>&nbsp;Download</a> 
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-           <h5 class="pro_heading">Skills & Technologies:</h5>
-           <ul>
-            <li>Languages: Java</li>
-            <li>Frameworks: Spring Boot</li>           
-            <li>APIs: ExchangeRate-API,RESTful API</li>         
-           </ul>
-
-        </div>
-
-
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/p1.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>project 1</h4>
-              <p>STOCK PRICE PREDICTION SYSTEM</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/p1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
- 
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/profile/profile-2.webp" alt="Alexander Chen" class="profile-image">
+                  <div class="floating-elements">
+                    <div class="floating-icon icon-1"><i class="bi bi-palette"></i></div>
+                    <div class="floating-icon icon-2"><i class="bi bi-code-slash"></i></div>
+                    <div class="floating-icon icon-3"><i class="bi bi-lightbulb"></i></div>
+                    <div class="floating-icon icon-4"><i class="bi bi-graph-up"></i></div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-lg-5 col-md-6 portfolio-item filter-web">
-          <h5 class="pro_heading">STOCK PRICE PREDICTION SYSTEM</h5>
-          <p>Developed a stock price prediction platform using Django, integrating linear regression and LSTM models for forecasting. The system allows users to access real-time stock data and news from Yahoo Finance. Users can utilize linear regression for free and access LSTM predictions after a subscription. Key features include user account management, feedback submission, and viewing stock-related information. Admin functionalities include managing user accounts, visualizing website usage, and reviewing user feedback. The project employs MySQL for data storage and emphasizes a user-friendly experience with a focus on accurate stock predictions.</p>
-          <a href="https://github.com/mahesh6783/Stock-price-prediction-system" target="_blank" class="pro_download"><i class="bi bi-github"></i>&nbsp;GitHub</a> 
-          <a href="https://github.com/mahesh6783/Stock-price-prediction-system/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i>&nbsp;Download</a> 
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-           <h5 class="pro_heading">Skills & Technologies:</h5>
-           <ul>
-            <li>Languages: Python, JavaScript</li>
-            <li>Frameworks: Django, bootstrap, TensorFlow, Keras, Scikit-learn</li>
-            <li>Databases: MySQL</li>
-            <li>APIs: Yahoo Finance API, RESTful API design</li>
-            <li>Frontend: HTML/CSS, JavaScript</li>
-           </ul>
-
-        </div>
-
-
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/p4.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Project 2</h4>
-              <p>HOSPITAL MANAGEMENT SYSTEM </p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/p4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"  ><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-5 col-md-6 portfolio-item filter-card">
-          <h5 class="pro_heading">HOSPITAL MANAGEMENT SYSTEM </h5>
-          <p>The Hospital Management System, developed using Django, streamlines healthcare administration by enabling secure user authentication, doctor appointment scheduling, medication management, and centralized administrative control, enhancing efficiency and patient care.</p>
-          <a href="https://github.com/mahesh6783/HOSPITAL-MANAGEMENT-SYSTEM-" target="_blank" class="pro_download"><i class="bi bi-github"></i>&nbsp;GitHub</a> 
-          <a href="https://github.com/mahesh6783/HOSPITAL-MANAGEMENT-SYSTEM-/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i>&nbsp;Download</a> 
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-          <h5 class="pro_heading">Skills & Technologies:</h5>
-           <ul>
-            <li>Languages:Python, JavaScript</li>
-            <li>Frontend: HTML/CSS/Js</li>
-            <li>Database: SqLite</li>
-            <li>Technologies: Web development</li>
-            <li>Frameworks: Django, bootstrap</li>
-           </ul>
-           
-        </div>
-
-      
-
-
-
-
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/p2.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Project 3</h4>
-              <p>Self-Driving Car Using ESP32 (IoT)</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/p2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"  ><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-5 col-md-6 portfolio-item filter-web">
-          <h5 class="pro_heading">Self-Driving Car Using ESP32 (IoT)</h5>
-          <p>In this project, a self-driving car was developed utilizing the ESP32-CAM module, a low-cost microcontroller with camera capabilities. The project focused on integrating IoT technologies to enable autonomous navigation. The car uses advanced image processing algorithms to analyze real-time video feeds, detecting and interpreting road conditions . The system processes this data to make informed driving decisions . This project exemplifies the potential of IoT in creating intelligent, connected systems for autonomous vehicles.</p>
-          <a href="https://github.com/mahesh6783/Self-Driving-car-using-ESP32-CAM" target="_blank" class="pro_download"><i class="bi bi-github"></i>&nbsp;GitHub</a> 
-          <a href="https://github.com/mahesh6783/Self-Driving-car-using-ESP32-CAM/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i>&nbsp;Download</a> 
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-          <h5 class="pro_heading">Skills & Technologies:</h5>
-           <ul>
-            <li>Languages: C++, Python</li>
-            <li>Hardware: ESP32-CAM, L298N Motor Driver</li>
-            <li>Technologies: IoT, Image Processing, Computer Vision</li>
-            <li>Concepts: Autonomous Navigation, Real-Time Decision Making</li>
-            <li>Tools: Embedded Systems Programming, Sensor Integration</li>
-           </ul>
-        
-             
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/p3.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Project 4</h4>
-              <p>RT Office Management System</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/p3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"  ><i class="bx bx-plus"></i></a>
-               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-5 col-md-6 portfolio-item filter-card">
-          <h5 class="pro_heading">RT Office Management System</h5>
-          <p>Developed a web-based management system for the Regional Transport Office (RTO), hosted on secure servers. This system enables remote access, simplifies maintenance, and consolidates inventory management from a central database. It supports various RTO functions, including the issuance of driving licenses, learner's licenses, vehicle registrations, ownership transfers, and permits. A significant innovation is the on-the-spot issuance of driving licenses and the implementation of the Computer Aided Learner's Licensing System (CALLS) for instant learner's license issuance. This project streamlines the office's operations, improving record-keeping and increasing employee efficiency.</p>
-          <a href="https://github.com/mahesh6783/RTO-Management-System-/tree/main/rto2022" target="_blank" class="pro_download"><i class="bi bi-github"></i>&nbsp;GitHub</a> 
-          <a href="https://github.com/mahesh6783/RTO-Management-System-/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i>&nbsp;Download</a> 
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-          <h5 class="pro_heading">Skills & Technologies:</h5>
-           <ul>
-            <li>Languages:Python, JavaScript</li>
-            <li>Frontend: HTML/CSS</li>
-            <li>Database: SqLite</li>
-            <li>Technologies: Web development</li>
-            <li>Frameworks: Django, bootstrap</li>
-           </ul>
-           
-        </div>
-
-      </div>
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Uthikuzha(h), Anickadu (W) P.O , Kottayam, Kerala,India</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>maheshharikrishnan11@gmail .com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>7994545240</p>
           </div>
         </div>
       </div>
 
-      <form action="" method="post" role="form" name="contact-form" class="php-email-form mt-4">
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
         <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <!-- <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div> -->
-        <div class="text-center" style="margin-top: 5px;"> <input type="submit" value="Send Message"></div>
-      </form>
+           
+          <div class="col-lg-12" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>Passionate About Crafting Intelligent Digital Solutions</h2>
+              </div>
 
+              <div class="description">
+                <p>Driven by a deep curiosity for innovation, I blend creativity with technology to build seamless, intelligent, and user-centric digital experiences. My focus lies in merging design, functionality, and smart automation to deliver solutions that inspire and perform.</p>
+
+                <p>From intuitive interfaces to AI-powered systems, I strive to turn bold ideas into meaningful, future-ready realities—designed with precision, crafted with purpose.</p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">6</div>
+                  <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">1</div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">100%</div>
+                  <div class="stat-label">Client Satisfaction</div>
+                </div>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">Web Development</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Experience Level</span>
+                    <span class="detail-value">Professional</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Education</span>
+                    <span class="detail-value">MSc Computer Science</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-value">English, Malayalam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+                <a href="assets/cv/MAHESH_H.pdf" download="MAHESH_H.pdf" class="btn btn-primary">
+                  <i class="bi bi-download"></i>
+                  Download Resume
+                </a>
+                <a href="https://chat.google.com/?email=maheshharikrishnan11@gmail.com" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        
+
+        <div class="row justify-content-center">
+          
+          <div class="col-lg-10">
+            <div class="stats-wrapper">
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="icon-wrapper">
+                  <i class="ri-file-music-line" style="color: #3ce803;"></i>
+               
+                </div>
+                 <p>Music</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-wrapper">
+                  <i class="ri-code-s-slash-line" style="color: #ffbb2c;"></i>
+                </div>
+                 <p>Coding</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="icon-wrapper">
+                  <i class="ri-sailboat-line" style="color: #5578ff;"></i>
+                </div>
+                 <p>Travel</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-wrapper">
+                  <i class="ri-book-line" style="color: #0d2ae7;"></i>
+                </div>
+                 <p>Reading</p>
+              </div><!-- End Stats Item -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+       </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Front-end Development</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>HTML/CSS</h4>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Expert level knowledge of semantic HTML5 and modern CSS3 techniques</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>JavaScript</h4>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Strong proficiency in ES6+, DOM manipulation, and modern frameworks</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>React</h4>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Experience with React hooks, state management, and component architecture</div>
+                </div>
+              </div>
+            </div><!-- End Frontend Skills -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Back-end Development</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Java</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Server-side JavaScript development with Express and REST APIs</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Python</h4>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Python development with Django and data analysis tools</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>SQL</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Database design, optimization, and complex queries</div>
+                </div>
+              </div>
+            </div><!-- End Backend Skills -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>I am a Computer Science graduate with a strong foundation in software development, artificial intelligence, and IoT. Passionate about building intelligent and user-centric digital solutions, I bring hands-on experience in full-stack development, AI integration, and embedded systems. I am a quick learner, an adaptable team player, and highly motivated to contribute to challenging and impactful projects. With a blend of creativity and technical expertise, I aim to drive innovation and deliver high-quality results in every opportunity I undertake.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/profile/me.jpeg" alt="Profile" class="img-fluid rounded">
+              </div>
+
+              <h3>Professional Summary</h3>
+              <p>Results-oriented developer with a strong foundation in software engineering and AI technologies. Skilled in building intelligent, efficient, and scalable web and IoT solutions. Passionate about solving real-world problems using innovative tools like Python, machine learning, and modern frameworks. Committed to continuous learning and creating impactful digital experiences.</p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt"></i> Uthikuzha(H), Anickadu (W) P.O , Kottayam, Kerala</li>
+                <li><i class="bi bi-envelope"></i> maheshharikrishnan11@gmail.com</li>
+                <li><i class="bi bi-phone"></i> +91 7994545240</li> 
+              </ul>
+
+              <div class="skills-animation mt-4">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Web Development</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>AI/ML & Deep Learning</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>IoT Hardware Integration</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Database Management</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Python Full-Stack Development- Intern</h4>
+                <h5>5/2025 - 6/2025</h5>
+                <p class="company"><i class="bi bi-building"></i> Portfolix.Tech </p>
+                <ul>
+                  <li> Ground Floor, KUBZ, 2115, Padamugal - Palachuvadu Rd, Satellite Twp, Padamughal, Kakkanad, 
+Kerala 682037  </li>
+                  
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Python Developer- Intern </h4>
+                <h5>7/2024 - 1/2025</h5>
+                <p class="company"><i class="bi bi-building"></i> Tenzotech</p>
+                <ul>
+                  <li> 2nd Floor, KC Arcade, Thuthiyoor Rd, CSEZ, Kakkanad  </li>                
+                </ul>
+              </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
+
+              <div class="resume-item">
+                <h4>Master of Science in Computer Science</h4>
+                <h5>2022 - 2024</h5>
+                <p class="company"><i class="bi bi-building"></i> BVM Holy Cross College, Cherpunkal </p>
+                <p>Specialized in Artificial Data Analytics. Graduated with honors.</p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Bachelor of Science in Computer Science</h4>
+                <h5>2019 - 2022</h5>
+                <p class="company"><i class="bi bi-building"></i>School Of Technology And Applied Sciences, Kottayam </p>               
+              </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-award me-2"></i>Certifications</h3>
+
+              <div class="resume-item">
+                <h4>Getting Started with Data Analytics on AWS </h4>
+                <h5>2024</h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Python</h4>
+                <h5>2024</h5>
+              </div>
+              <div class="resume-item">
+                <h4>Basics of Python</h4>
+                <h5>2024</h5>
+              </div>
+              <div class="resume-item">
+                <h4>HTML Web Development Crash Course</h4>
+                <h5>2024</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Innovative and impactful projects developed with a focus on solving real-world problems using AI, web technologies, and IoT. From predictive systems to intelligent automation, each project reflects a blend of creativity, technical expertise, and practical application.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">All Projects</li>
+                  <li data-filter=".filter-Iot">Iot Projects</li>
+                  <li data-filter=".filter-Django">Django Projects</li>
+                  <li data-filter=".filter-sp">Spring boot projects</li> 
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-9">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-Iot">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/p2.jpeg" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content"> 
+                        <h4>Self-Driving Car Using ESP32 (IoT)</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/p2.jpeg" class="glightbox" ><i class="bi bi-plus-lg"></i></a>
+                          <a href="https://github.com/mahesh6783/Self-Driving-car-using-ESP32-CAM" target="_blank" class="pro_download"><i class="bi bi-github"></i></a> 
+                          <a href="https://github.com/mahesh6783/Self-Driving-car-using-ESP32-CAM/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i> </a> 
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-Django">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/p6.jpeg" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content"> 
+                        <h4>TRENDORA - ecommerce site</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/p6.jpeg" class="glightbox"  ><i class="bi bi-plus-lg"></i></a>
+                          <a href="https://github.com/mahesh6783/ecommerce" target="_blank" class="pro_download"><i class="bi bi-github"></i></a> 
+                          <a href="https://github.com/mahesh6783/ecommerce/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i> </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-Django">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/p1.jpeg" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content"> 
+                        <h4>STOCK PRICE PREDICTION SYSTEM</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/p1.jpeg" class="glightbox"  ><i class="bi bi-plus-lg"></i></a>
+                          <a href="https://github.com/mahesh6783/Stock-price-prediction-system" target="_blank" class="pro_download"><i class="bi bi-github"></i></a> 
+                          <a href="https://github.com/mahesh6783/Stock-price-prediction-system/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i> </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-Django">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/p3.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content"> 
+                        <h4>RT Office Management System</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/p3.png" class="glightbox"  ><i class="bi bi-plus-lg"></i></a>
+                          <a href="https://github.com/mahesh6783/RTO-Management-System-/tree/main/rto2022" target="_blank" class="pro_download"><i class="bi bi-github"></i></a> 
+                          <a href="https://github.com/mahesh6783/RTO-Management-System-/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i> </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-Django">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/p4.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                       
+                        <h4>HOSPITAL MANAGEMENT SYSTEM</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/p4.png" class="glightbox"  ><i class="bi bi-plus-lg"></i></a>
+                          <a href="https://github.com/mahesh6783/HOSPITAL-MANAGEMENT-SYSTEM-" target="_blank" class="pro_download"><i class="bi bi-github"></i></a> 
+                          <a href="https://github.com/mahesh6783/HOSPITAL-MANAGEMENT-SYSTEM-/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i> </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-sp">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/p5.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content"> 
+                        <h4>Currency Converter</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/p5.png" class="glightbox"  ><i class="bi bi-plus-lg"></i></a>
+                          <a href="https://github.com/mahesh6783/CurrencyConverter" target="_blank" class="pro_download"><i class="bi bi-github"></i></a> 
+                          <a href="https://github.com/mahesh6783/CurrencyConverter/archive/refs/heads/main.zip" class="pro_download"><i class="bi bi-download"></i> </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item --> 
+              </div><!-- End Portfolio Container -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Offering web development, AI integration, and seamless digital transformation solutions</p>
+      </div> 
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+         
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+               
+              <h3>
+                <a href="service-details.html">
+                  Web <span>Development</span>
+                </a>
+              </h3>
+              <p>
+                Responsive and dynamic websites using Django, React, PHP, and CodeIgniter.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+               
+              <h3>
+                <a href="service-details.html">
+                  AI & Machine Learning<span>Solutions</span>
+                   
+                </a>
+              </h3>
+              <p>
+                Intelligent systems using Python, TensorFlow, and custom ML models for prediction and automation.
+               </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+               
+              <h3>
+                <a href="service-details.html">
+                  IoT & Embedded<span> Systems</span>
+                </a>
+              </h3>
+              <p>
+                Smart device integration using ESP32, Arduino, Raspberry Pi, and real-time sensor data handling.
+               </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+               
+              <h3>
+                <a href="service-details.html">
+                  Database  <span>Management</span>
+                </a>
+              </h3>
+              <p>
+                Efficient database design and handling with MySQL, including secure CRUD operations and optimization.
+               </p>
+            </div>
+          </div>
+           
+           
+        </div>
+
+      </div>
+
+    </section> 
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>certificates</h2>
+        <p>Recognized credentials that validate my technical expertise, practical skills, and commitment to continuous learning.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="testimonial-masonry">
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+                <img class="c_img" src="assets/img/certificate/aws.jpg">
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+                <img class="c_img" src="assets/img/certificate/image.png">
+            </div>
+          </div>
+
+           <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+                 <img class="c_img" src="assets/img/certificate/c6.jpg">
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+                 <img class="c_img" src="assets/img/certificate/c7.png">
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+                <img class="c_img" src="assets/img/certificate/cloud.png">
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+                <img class="c_img" src="assets/img/certificate/c1.jpg">
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+                  <img class="c_img" src="assets/img/certificate/c2.jpg">
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+                  <img class="c_img" src="assets/img/certificate/c3.jpg">
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+                  <img class="c_img" src="assets/img/certificate/c4.png">
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+                  <img class="c_img" src="assets/img/certificate/c5.jpg">
+            </div>
+          </div>
+
+         
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Feel free to reach out anytime—I'm always open to collaboration.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Location</h4>
+                  <p>Uthikuzha House</p>
+                  <p>Anickadu west P.O, KOttayam</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+91 7994545240</p>
+             
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>maheshharikrishnan11@gmail.com</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+       
+              
+              <form action="" method="post" role="form" name="contact-form" class="php-email-form" >
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+             
+
+                    <input type="submit" value="Send Message" class="btn">
+                  </div>
+
+                </div>
+              </form>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+       
+      <div class="credits"> 
+        Designed by <a href=" ">Mahesh H</a>
+      </div>
     </div>
-  </section><!-- End Contact Section -->
 
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="">Mahesh H</a>
-  </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/js/googel_sheet.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
